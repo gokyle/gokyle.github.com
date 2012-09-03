@@ -11,7 +11,7 @@ the [Go](http://www.golang.org) koolaid. As I learn the language, I find
 it to be a useful cross between C and Python, the two languages I am most
 familiar with.
 
-You can view my [list of projects in Go](/projects/) or browse through
-some of the [articles](/articles/) I've written on the language.
+You can view my [list of projects in Go](/projects.html) or browse through
+some of the [articles](/articles.html) I've written on the language.
 
 The gophers that appear on this site come from the [Go homepage](http://www.golang.org)
