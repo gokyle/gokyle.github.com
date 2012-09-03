@@ -14,3 +14,4 @@ familiar with.
 You can view my [list of projects in Go](/projects/) or browse through
 some of the [articles](/articles/) I've written on the language.
 
+The gophers that appear on this site come from the [Go homepage](http://www.golang.org)
