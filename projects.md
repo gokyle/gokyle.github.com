@@ -7,6 +7,10 @@ description: "Ontology of Kyle Isom's Go projects."
 
 ![Go gophers from the Go homepage](/images/gopher/project.png)
 
+* [gack](http://gokyle.github.com/gack) is an [ack]() clone
+written in Go. It currently supports basic querying and file listings, but
+has a long ways to go to beat ack's performance.
+
 * [golobsters](http://gokyle.github.com/golobsters/) is an application
 running on [Heroku](http://www.heroku.com) that posts new stories from
 [lobste.rs](https://lobste.rs) to [Twitter](https://www.twitter.com/lobsternews).

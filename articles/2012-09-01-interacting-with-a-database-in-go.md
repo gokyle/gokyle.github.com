@@ -21,6 +21,9 @@ There are two libraries I used:
 [pq](https://github.com/bmizerany/pq) library.
 
 ## Connecting to the Database
+Once you have assigned the database object in your code, you should
+ensure that you run a `defer db.Close()` to make sure the connection
+is properly closed.
 
 ### Postgres
 
@@ -31,22 +34,27 @@ import (
         _ "github.com/bmizerany/pq"
 )
 
-// ConnStringFromEnv loads the database credentials from the environment. 
-func ConnStringFromEnv() string {
-        return fmt.Sprintf(
-                "dbname=%s user=%s password=%s host=%s port=%s sslmode=%s",
-                os.Getenv("PG_DBNAME"),
-                os.Getenv("PG_USER"),
-                os.Getenv("PG_PASS"),
-                os.Getenv("PG_HOST"),
-                os.Getenv("PG_PORT"),
-                os.Getenv("PG_SSLMODE"))
+func ConnectFromEnv() (*sql.DB, error) {
+        conn_string := fmt.Sprintf(
+        "dbname=%s user=%s password=%s host=%s port=%s sslmode=%s",
+            os.Getenv("PG_DBNAME"),
+            os.Getenv("PG_USER"),
+            os.Getenv("PG_PASS"),
+            os.Getenv("PG_HOST"),
+            os.Getenv("PG_PORT"),
+            os.Getenv("PG_SSLMODE"))
+
+        db, err := sql.Open("postgres", conn_string)
+        if err != nil {
+                log.Printf("[!] dbase couldn't open database connection: %s",
+                        err)
+                db = nil
+        }
+
+        return db, err
 }
 
-func ... {
-        db, err := sql.Open("postgres", ConnStringFromEnv())
-        // database interaction
-}
+
 {% endhighlight %}
 
 ### SQLite3
@@ -63,4 +71,15 @@ func ... (filename string) ... {
 }
 {% endhighlight %}
 
-## The database/sql Interface
+## The database/sql.DB Interface
+The database object returned from these connections implements the
+interface specified in the
+[database/sql interface](http://golang.org/pkg/database/sql/). Specifically,
+there are three main methods used to carry out SQL queries: `Exec`,
+`Query`, and `QueryRow`.
+
+### Exec
+
+### Query
+
+### QueryRow
