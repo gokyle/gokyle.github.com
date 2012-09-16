@@ -16,7 +16,7 @@ running on [Heroku](http://www.heroku.com) that posts new stories from
 [lobste.rs](https://lobste.rs) to [Twitter](https://www.twitter.com/lobsternews).
 
 * [gomon](http://gokyle.github.com/gomon/) provides basic runtime monitoring 
-and program restarts for Go programs. It was adapter from a Python module I
+and program restarts for Go programs. It was adapted from a Python module I
 wrote for keeping a Bitcoin trading system online.
 
 * [gopush](http://gokyle.github.com/gopush/) provides [Pushover](https://www.pusover.net)
