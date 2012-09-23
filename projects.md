@@ -7,6 +7,12 @@ description: "Curated Tour of Kyle Isom's Go projects."
 
 ![Go gophers from the Go homepage](/images/gopher/project.png)
 
+* [gotoma](https://github.com/gokyle/gotoma) is a command line tool
+for doing pomodoros.
+
+* [say](https://github.com/gokyle/say) is a command line interface to
+festival, inspired by the OS X command `say`.
+
 * [gack](https://github.com/gokyle/gack) is an [ack](http://betterthangrep.com/)
 clone written in Go. It currently supports basic querying and file listings, 
 but has a long ways to go to beat ack's performance.
