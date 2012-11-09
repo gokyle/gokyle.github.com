@@ -20,6 +20,8 @@ There are two libraries I used:
 * for postgres, I used [Blake Mizerany's](http://blakemizerany.com)
 [pq](https://github.com/bmizerany/pq) library.
 
+This information can also be pulled from the [package documentation](golang.org/pkg/database/sql).
+
 ## Connecting to the Database
 Once you have assigned the database object in your code, you should
 ensure that you run a `defer db.Close()` to make sure the connection
@@ -79,7 +81,54 @@ there are three main methods used to carry out SQL queries: `Exec`,
 `Query`, and `QueryRow`.
 
 ### Exec
+Exec carries out a query and does not return any results; it does return a
+sql.Result value that can be checked for the number of rows affected.
+
+{% highlight go %}
+func clearErrorList(db *sql.DB) error {
+        res, err := db.Exec("delete from errors")
+        if err != nil {
+                log.Println("clearErrorList: ", err.Error())
+        } else {
+                log.Printf("%d errors cleared", res.RowsAffected())
+        }
+        return err
+}
+{% endhighlight %}
+
+The `Result` type also contains a `LastInsertedId()` method for returning the id
+of the last row inserted into the database.
 
 ### Query
+`Query` exectes a query, and provides a set of rows:
+
+{% highlight go %}
+// part of a function to validate a user's password:
+        query := "select * from users where username=?"
+        rows, err := db.Query(query, form.Get("user"))
+        if err != nil {
+                return
+        }
+        var username, hashed, salt string
+        for rows.Next() {
+                err = rows.Scan(&username, &hashed, &salt)
+                if err != nil {
+                        return
+                }
+        }
+        if err = rows.Err(); err != nil {
+                return
+        }
+{% endhighlight %}
 
 ### QueryRow
+`QueryRow` can be used similarly to `Query`; however, it is intended to
+be used for queries that return a single row. It lacks the `Next()`
+method; in fact, its only method is `Scan()` which is used exactly the
+same as with `Query`. Note that `QueryRow` also does not return an
+`error` type.
+
+## Conclusions
+
+There are more advanced things you can do with the database library, like
+prepared statements and such. 
