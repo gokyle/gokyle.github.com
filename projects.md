@@ -29,7 +29,7 @@ chrooting for security, dropping privileges, and TLS. It is a rewrite of a
 use case, see
 [minimal web development with rawk and srvwd](http://tyrfingr.is/essays/essay_minimal_webdev.html).
 
-* [gotoma](https://github.com/gokyle/gotoma) is a command line tool
+* [gotoma](http://gokyle.github.com/gotoma) is a command line tool
 for doing pomodoros.
 
 * [say](https://github.com/gokyle/say) is a command line interface to
