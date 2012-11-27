@@ -8,7 +8,7 @@ description: "Curated Tour of Kyle Isom's Go projects."
 ![Go gophers from the Go homepage](/images/gopher/project.png)
 
 ### Web Services
-* [urlshorten-ng](https//gokyle.github.com/urlshorten_ng) is a simple URL
+* [urlshorten-ng](http://gokyle.github.com/urlshorten_ng) is a simple URL
 shortening service; an example of the service is currently running on
 [nodality.io](https://nodality.io).
 
@@ -18,7 +18,7 @@ for developing web services in Go.
 * [golobsters](http://gokyle.github.com/golobsters/) is an application
 running on [Heroku](http://www.heroku.com) that posts new stories from
 [lobste.rs](https://lobste.rs) to [Twitter](https://www.twitter.com/lobsternews).
-It is based on the [rsstotwitter](https://gokyle.github.com/rsstotwitter)
+It is based on the [rsstotwitter](http://gokyle.github.com/rsstotwitter)
 package.
 
 ### Standalone Commandline Programs
@@ -44,7 +44,7 @@ but has a long ways to go to beat ack's performance.
 * [goconfig](http:/gokyle.github.com/goconfig) is a package for parsing simple
 configuration files.
 
-* [goirc](https://gokyle.github.com/goirc) is a library for connecting to an
+* [goirc](http://gokyle.github.com/goirc) is a library for connecting to an
 IRC server.
 
 * [gomon](http://gokyle.github.com/gomon/) provides basic runtime monitoring 
