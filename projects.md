@@ -18,6 +18,8 @@ for developing web services in Go.
 * [golobsters](http://gokyle.github.com/golobsters/) is an application
 running on [Heroku](http://www.heroku.com) that posts new stories from
 [lobste.rs](https://lobste.rs) to [Twitter](https://www.twitter.com/lobsternews).
+It is based on the [rsstotwitter](https://gokyle.github.com/rsstotwitter)
+package.
 
 ### Standalone Commandline Programs
 
