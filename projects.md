@@ -41,7 +41,7 @@ but has a long ways to go to beat ack's performance.
 
 ### Conviennce Packages
 
-* [goconfig](http:/gokyle.github.com/goconfig) is a package for parsing simple
+* [goconfig](http://gokyle.github.com/goconfig) is a package for parsing simple
 configuration files.
 
 * [goirc](http://gokyle.github.com/goirc) is a library for connecting to an
