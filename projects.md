@@ -7,6 +7,10 @@ description: "Curated Tour of Kyle Isom's Go projects."
 
 ![Go gophers from the Go homepage](/images/gopher/project.png)
 
+### Libraries
+* [filecache](http://gokyle.github.com/filecache) is a basic file cache
+written in pure Go with no external dependencies.
+
 ### Web Services
 * [urlshorten-ng](http://gokyle.github.com/urlshorten_ng) is a simple URL
 shortening service; an example of the service is currently running on
@@ -22,6 +26,9 @@ It is based on the [rsstotwitter](http://gokyle.github.com/rsstotwitter)
 package.
 
 ### Standalone Commandline Programs
+
+* [cachesrv](http://gokyle.github.com/cachesrv) is the caching version of
+[srvwd](http://github.com/srvwd).
 
 * [srvwd](http://gokyle.github.com/srvwd) is a simple file server that supports
 chrooting for security, dropping privileges, and TLS. It is a rewrite of a
@@ -39,7 +46,7 @@ festival, inspired by the OS X command `say`.
 clone written in Go. It currently supports basic querying and file listings, 
 but has a long ways to go to beat ack's performance.
 
-### Conviennce Packages
+### Convienence Packages
 
 * [goconfig](http://gokyle.github.com/goconfig) is a package for parsing simple
 configuration files.
