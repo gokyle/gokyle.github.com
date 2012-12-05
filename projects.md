@@ -8,7 +8,7 @@ description: "Curated Tour of Kyle Isom's Go projects."
 ![Go gophers from the Go homepage](/images/gopher/project.png)
 
 ### Libraries
-* [pbdf2](http://github.com/gokyle/pbkdf2) is a convenience wrapper
+* [pbkdf2](http://github.com/gokyle/pbkdf2) is a convenience wrapper
 around [go.crypto/pbkdf2](http://go.pkgdoc.org/code.google.com/p/go.crypto/pbkdf2).
 It provides simpler `HashPassword` and `MatchPassword` functions, while
 using sane (and configurable) HMAC-SHA1 defaults. The output hash
