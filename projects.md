@@ -8,6 +8,12 @@ description: "Curated Tour of Kyle Isom's Go projects."
 ![Go gophers from the Go homepage](/images/gopher/project.png)
 
 ### Libraries
+* [pbdf2](http://github.com/gokyle/pbkdf2) is a convenience wrapper
+around [go.crypto/pbkdf2](http://go.pkgdoc.org/code.google.com/p/go.crypto/pbkdf2).
+It provides simpler `HashPassword` and `MatchPassword` functions, while
+using sane (and configurable) HMAC-SHA1 defaults. The output hash
+is suitable for use as an AES-256 key.
+
 * [filecache](http://gokyle.github.com/filecache) is a basic file cache
 written in pure Go with no external dependencies.
 
