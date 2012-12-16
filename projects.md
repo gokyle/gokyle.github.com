@@ -8,6 +8,8 @@ description: "Curated Tour of Kyle Isom's Go projects."
 ![Go gophers from the Go homepage](/images/gopher/project.png)
 
 ### Libraries
+* [fswatch](https://github.com/gokyle/fswatch) is a polling UNIX file system watcher.
+An operating-system-specific event system is being worked on (i.e. FSEvents for OS X).
 * [pbkdf2](http://github.com/gokyle/pbkdf2) is a convenience wrapper
 around [go.crypto/pbkdf2](http://go.pkgdoc.org/code.google.com/p/go.crypto/pbkdf2).
 It provides simpler `HashPassword` and `MatchPassword` functions, while
