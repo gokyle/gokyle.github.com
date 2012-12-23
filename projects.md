@@ -20,6 +20,10 @@ is suitable for use as an AES-256 key.
 written in pure Go with no external dependencies.
 
 ### Web Services
+* [gowik](https://github.com/gokyle/gowik) is a simple, single-user wiki
+I wrote to replace [gitit](http://gitit.net). It's a bit rough around the
+edges, but I currently use it for a personal wiki-like system.
+
 * [urlshorten-ng](http://gokyle.github.com/urlshorten_ng) is a simple URL
 shortening service; an example of the service is currently running on
 [nodality.io](https://nodality.io).
