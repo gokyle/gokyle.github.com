@@ -39,6 +39,10 @@ package.
 
 ### Standalone Commandline Programs
 
+* [golst](http://gokyle.github.com/golst) is a Go literate programming tool
+that generates readable listings from Go source code with no need for any
+different syntax than used by GoDoc.
+
 * [cachesrv](http://gokyle.github.com/cachesrv) is the caching version of
 [srvwd](http://github.com/srvwd).
 
