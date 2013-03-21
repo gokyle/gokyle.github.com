@@ -5,8 +5,6 @@ description: "Articles I've written on coding in Go!"
 ---
 {% include JB/setup %}
 
-![One of the Go gopher mascots from the Go homepage](/images/gopher/doc.png)
-
 ### External
 There are a couple of articles published on
 [my blog](http://www.kyleisom.net):

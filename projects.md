@@ -5,11 +5,15 @@ description: "Curated Tour of Kyle Isom's Go projects."
 ---
 {% include JB/setup %}
 
-![Go gophers from the Go homepage](/images/gopher/project.png)
-
 ### Libraries
+* [coinbase_api](https://github.com/gokyle/coinbase_api) is a Golang interface
+to the [Coinbase](https://coinbase.com) API. It is about 50% complete, but
+supports retrieving exchange rates, checking transaction prices, and
+buying / selling bitcoins.
+
 * [fswatch](https://github.com/gokyle/fswatch) is a polling UNIX file system watcher.
 An operating-system-specific event system is being worked on (i.e. FSEvents for OS X).
+
 * [pbkdf2](http://github.com/gokyle/pbkdf2) is a convenience wrapper
 around [go.crypto/pbkdf2](http://go.pkgdoc.org/code.google.com/p/go.crypto/pbkdf2).
 It provides simpler `HashPassword` and `MatchPassword` functions, while
