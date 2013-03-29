@@ -5,7 +5,10 @@ description: "Curated Tour of Kyle Isom's Go projects."
 ---
 {% include JB/setup %}
 
-### Libraries
+### Packages
+* [tlv.go](https://github.com/gokyle/tlv) is a package for handling simple
+tag-length-value records.
+
 * [coinbase_api](https://github.com/gokyle/coinbase_api) is a Golang interface
 to the [Coinbase](https://coinbase.com) API. It is about 50% complete, but
 supports retrieving exchange rates, checking transaction prices, and
