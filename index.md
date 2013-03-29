@@ -16,9 +16,6 @@ take a look at the [talks](/talks.html) I've given, or view my
 on a book titled
 ["Practical Cryptography With Go"](https://leanpub.com/gocrypto).
 
-The gophers that appear on this site come from the 
-[Go homepage](http://www.golang.org).
-
 I can be contacted via 'kyle' at this domain, or from the
 [contact page](http://kyleisom.net/about/) on my
 [homepage](http://kyleisom.net).
