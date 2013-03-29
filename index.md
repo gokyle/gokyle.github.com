@@ -9,9 +9,9 @@ the [Go](http://www.golang.org) koolaid. As I learn the language, I find
 it to be a useful cross between C and Python, the two languages I am most
 familiar with.
 
-You can view my [list of projects in Go](/projects.html), browse through
-some of the [articles](/articles.html) I've written on the language,
-take a look at the [talks](/talks.html) I've given, or view my
+You can view my [list of projects in Go](/projects/), browse through
+some of the [articles](/articles/) I've written on the language,
+take a look at the [talks](/talks/) I've given, or view my
 [profile](https://github.com/gokyle/) on Github. I am also working
 on a book titled
 ["Practical Cryptography With Go"](https://leanpub.com/gocrypto).
