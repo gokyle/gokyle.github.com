@@ -29,7 +29,7 @@ I'll keep this page updated with the book's progress.
 
 0. Introduction (*draft complete*)
 0. Symmetric Cryptography (*draft complete*)
-0. ASCII-armouring (*in progress*)
+0. ASCII-armouring (*draft complete*)
 0. Hashing and Key Derivation
 0. Authenticated Symmetric Cryptography
 0. Attacks on Symmetric Crypto
