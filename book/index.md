@@ -25,16 +25,16 @@ particular cipher. The book bases these choices on the FIPS guidelines.
 
 I'll keep this page updated with the book's progress.
 
-## Table of Contents
+## Planned Table of Contents
 
 0. Introduction (*draft complete*)
 0. Symmetric Cryptography (*draft complete*)
 0. ASCII-armouring (*draft complete*)
-0. Hashing and Key Derivation
+0. Hashing and Key Derivation (*in progress*)
 0. Authenticated Symmetric Cryptography
 0. Attacks on Symmetric Crypto
 0. Public Key Crypto (RSA)
 0. Public Key Crypto (ECC)
 0. Attacks on Public Key Cryptography
 0. Hybrid Keys
-
+0. Trust and the Social Problem
