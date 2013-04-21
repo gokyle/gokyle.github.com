@@ -7,6 +7,6 @@ description: Kyle's Golang talks.
 
 ## 2013
 
-* 2013/03/28: [Symmetric Cryptography with Go](http://talks.gokyle.org/denver.gophers/March28.slide),
+* 2013/03/28: [Symmetric Cryptography with Go](http://talks.gokyle.org/denver.gophers/2013/symmetric.slide),
 [example code](https://github.com/gokyle/marchat).
 
