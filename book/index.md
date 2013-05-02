@@ -31,10 +31,11 @@ I'll keep this page updated with the book's progress.
 0. Symmetric Cryptography (*draft complete*)
 0. ASCII-armouring (*draft complete*)
 0. Hashing and Key Derivation (*draft complete*)
-0. Authenticated Symmetric Cryptography
+0. Authentication, Part I (*in progress*)
 0. Attacks on Symmetric Crypto
 0. Public Key Crypto (RSA)
 0. Public Key Crypto (ECC)
+0. Authentication, Part II
 0. Attacks on Public Key Cryptography
 0. Hybrid Keys
 0. Trust and the Social Problem
