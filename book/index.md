@@ -8,6 +8,7 @@ title: Practical Cryptography with Go
 * [Buy the book](https://leanpub.com/gocrypto)
 * [Example code](https://github.com/kisom/gocrypto)
 * [Book's twitter account](https://twitter.com/gocrypto)
+* [Read it online](http://book.gokyle.org/)
 
 I'm currently working on a book titled *Practical Cryptography with Go*. It's
 being published on [Leanpub](https://leanpub.com). This means that if you
@@ -16,12 +17,13 @@ writing habit at the same time. You can get it from the
 [Leanpub page](https://leanpub.com/gocrypto).
 
 The book is aimed at Go developers who are familiar with the language, but
-not with Go. It doesn't aim to teach the theory of cryptography, but rather
-provide a blueprint showing how to effectively use cryptography in your
-code, and when you should use it. I assume you aren't terribly familiar with
-crypto, and strive explain what you need to know to use it properly, and I
-lay out a set of best practises so you don't need to worry about picking a
-particular cipher. The book bases these choices on the FIPS guidelines.
+not with cryptography. It doesn't aim to teach the theory of cryptography,
+but rather provide a blueprint showing how to effectively use cryptography
+in your code, and when you should use it. I assume you aren't terribly
+familiar with crypto, and strive explain what you need to know to use
+it properly, and I lay out a set of best practises so you don't need to
+worry about picking a particular cipher. The book bases these choices
+on the NIST guidelines, particular the FIPS publications.
 
 I'll keep this page updated with the book's progress.
 
