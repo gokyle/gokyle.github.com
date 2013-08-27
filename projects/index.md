@@ -6,6 +6,11 @@ description: "Curated Tour of Kyle Isom's Go projects."
 {% include JB/setup %}
 
 ### Packages
+* [cryptobox](https://github.com/gokyle/cryptobox) is a set of Go
+packages providing developers with a well-documented, properly-written,
+set of tools for proper encryption. It uses NIST-standard ciphers,
+including the NIST elliptic curves, AES, and HMAC-SHA2.
+
 * [tlv.go](https://github.com/gokyle/tlv) is a package for handling simple
 tag-length-value records.
 
