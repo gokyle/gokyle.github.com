@@ -29,18 +29,20 @@ I'll keep this page updated with the book's progress.
 
 ## Planned Table of Contents
 
+0. Preface (*draft complete*)
 0. Introduction (*draft complete*)
-0. Symmetric Cryptography (*draft complete*)
+0. Symmetric Ciphers (*draft complete*)
 0. ASCII-armouring (*draft complete*)
-0. Hashing and Key Derivation (*draft complete*)
+0. Cryptographic Hashes and Passphrase-Based Keys (*draft complete*)
 0. Authentication, Part I (*draft complete*)
-0. Attacks on Symmetric Crypto (*in progress*)
-0. Public Key Crypto (RSA) (*draft complete*)
+0. Attacking Symmetric Crypto (*in progress*)
+0. Public Key Cryptography with RSA (*draft complete*)
 0. Authentication, Part II (*in progress*)
-0. Public Key Crypto (ECC)
-0. Attacks on Public Key Cryptography
+0. Hybrid Cryptographic Systems
 0. Hybrid Keys
 0. Trust and the Social Problem
+0. Key Security
+0. Conclusions
 
-I'm contemplating adding some chapters on the OpenPGP packages, but
-we'll see how turns out once I get further along.
+I'm contemplating adding some chapters on the OpenPGP packages and
+OTR packages, but we'll see how turns out once I get further along.
