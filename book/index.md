@@ -8,7 +8,7 @@ title: Practical Cryptography with Go
 * [Buy the book](https://leanpub.com/gocrypto)
 * [Example code](https://github.com/kisom/gocrypto)
 * [Book's twitter account](https://twitter.com/gocrypto)
-* [Read it online]()
+* [Read it online](https://leanpub.com/gocrypto/read)
 
 I'm currently working on a book titled *Practical Cryptography with Go*. It's
 being published on [Leanpub](https://leanpub.com). This means that if you
