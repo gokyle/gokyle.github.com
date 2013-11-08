@@ -37,12 +37,10 @@ I'll keep this page updated with the book's progress.
 0. Authentication, Part I (*draft complete*)
 0. Attacking Symmetric Crypto (*in progress*)
 0. Public Key Cryptography with RSA (*draft complete*)
-0. Authentication, Part II (*in progress*)
-0. Hybrid Cryptographic Systems
-0. Hybrid Keys
+0. Authentication, Part II (*draft complete*)
+0. Hybrid Cryptographic Systems (*draft complete*)
 0. Trust and the Social Problem
 0. Key Security
-0. Conclusions
 
 I'm contemplating adding some chapters on the OpenPGP packages and
 OTR packages, but we'll see how turns out once I get further along.
