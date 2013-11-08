@@ -8,7 +8,7 @@ title: Practical Cryptography with Go
 * [Buy the book](https://leanpub.com/gocrypto)
 * [Example code](https://github.com/kisom/gocrypto)
 * [Book's twitter account](https://twitter.com/gocrypto)
-* [Read it online](http://book.gokyle.org/)
+* [Read it online]()
 
 I'm currently working on a book titled *Practical Cryptography with Go*. It's
 being published on [Leanpub](https://leanpub.com). This means that if you
@@ -29,18 +29,19 @@ I'll keep this page updated with the book's progress.
 
 ## Planned Table of Contents
 
+0. Preface (*draft complete*)
 0. Introduction (*draft complete*)
-0. Symmetric Cryptography (*draft complete*)
-0. ASCII-armouring (*draft complete*)
-0. Hashing and Key Derivation (*draft complete*)
+0. Symmetric Ciphers (*draft complete*)
+0. ASCII-Armouring (*draft complete*)
+0. Cryptographic Hashes and Passphrase-Based Keys (*draft complete*)
 0. Authentication, Part I (*draft complete*)
-0. Attacks on Symmetric Crypto (*in progress*)
-0. Public Key Crypto (RSA) (*draft complete*)
-0. Authentication, Part II (*in progress*)
-0. Public Key Crypto (ECC)
-0. Attacks on Public Key Cryptography
-0. Hybrid Keys
-0. Trust and the Social Problem
+0. Attacking Symmetric Cryptography (*draft complete*)
+0. Public Key Cryptography with RSA (*draft complete*)
+0. Authentication, Part II (*draft complete*)
+0. Hybrid Cryptographic Systems (*draft complete*)
+0. Trust and the Social Problem (*in progress*)
+0. Key Management
 
-I'm contemplating adding some chapters on the OpenPGP packages, but
-we'll see how turns out once I get further along.
+I'm contemplating adding some chapters on some real-world case
+studies, such as OpenPGP and OTR, but we'll see how turns out once
+I get further along.
