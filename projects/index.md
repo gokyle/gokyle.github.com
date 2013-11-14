@@ -86,5 +86,5 @@ IRC server.
 and program restarts for Go programs. It was adapted from a Python module I
 wrote for keeping a Bitcoin trading system online.
 
-* [gopush](http://gokyle.github.com/gopush/) provides [Pushover](https://www.pusover.net)
+* [gopush](http://gokyle.github.com/gopush/) provides [Pushover](https://www.pushover.net)
 notifications from Go.
