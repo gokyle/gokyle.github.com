@@ -27,7 +27,7 @@ on the NIST guidelines, particular the FIPS publications.
 
 I'll keep this page updated with the book's progress.
 
-## Planned Table of Contents
+## <del>Planned</del> Table of Contents
 
 0. Preface (*draft complete*)
 0. Introduction (*draft complete*)
@@ -39,8 +39,14 @@ I'll keep this page updated with the book's progress.
 0. Public Key Cryptography with RSA (*draft complete*)
 0. Authentication, Part II (*draft complete*)
 0. Hybrid Cryptographic Systems (*draft complete*)
-0. Trust and the Social Problem
-0. Key Security
+0. Trust and the Social Problem (*draft complete*)
+0. Key <del>Security</del>Management (*draft complete*)
+0. Conclusion (*draft complete*)
+
+<h3>The first draft of the book is now complete!</h3>
 
 I'm contemplating adding some chapters on the OpenPGP packages and
 OTR packages, but we'll see how turns out once I get further along.
+
+Update: I've decided to split out the examples of using existing crypto
+systems into a separate (free) book. Stay tuned for more information.
