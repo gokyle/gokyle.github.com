@@ -9,6 +9,7 @@ description: "Articles I've written on coding in Go!"
 There are a couple of articles published on
 [my blog](http://www.kyleisom.net):
 
+* [Making Go Programs Upstart-Friendly](http://kyleisom.net/blog/2013/04/27/making-go-code-upstart-friendly/)
 * [network autoconfiguration with Go and ØMQ](http://www.kyleisom.net/blog/2013/02/26/network-autoconfiguration-with-go-and-zmq).
 * [benchmarking net/http's server](https://nodality.io/goweb_bench).
 
