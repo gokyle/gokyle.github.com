@@ -29,6 +29,7 @@ I'll keep this page updated with the book's progress.
 
 ## <del>Planned</del> Table of Contents
 
+<del>
 0. Preface (*draft complete*)
 0. Introduction (*draft complete*)
 0. Symmetric Ciphers (*draft complete*)
@@ -50,3 +51,9 @@ OTR packages, but we'll see how turns out once I get further along.
 
 Update: I've decided to split out the examples of using existing crypto
 systems into a separate (free) book. Stay tuned for more information.
+</del>
+
+Courtesy of a critical review, I'm in the process of rewriting the
+book. Having written it once already, I have an outline -- but now I'm
+waiting to publish each chapter until I can get a quality technical
+review on them.
