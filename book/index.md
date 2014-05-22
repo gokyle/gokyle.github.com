@@ -43,9 +43,11 @@ I'll keep this page updated with the book's progress.
 0. Trust and the Social Problem (*draft complete*)
 0. Key <del>Security</del>Management (*draft complete*)
 0. Conclusion (*draft complete*)
+</del>
 
-<h3>The first draft of the book is now complete!</h3>
+<h3><del>The first draft of the book is now complete!</del></h3>
 
+<del>
 I'm contemplating adding some chapters on the OpenPGP packages and
 OTR packages, but we'll see how turns out once I get further along.
 
